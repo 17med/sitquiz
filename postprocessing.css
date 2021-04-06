@@ -1,0 +1,267 @@
+.box:hover{
+box-shadow:0 -10px 20px 0  rgb(204,0,102) inset,0 1px 20px 0  rgb(204,0,102),
+            0 10px 20px 0  rgb(204,0,102) inset,0 1px 20px 0  rgb(204,0,102);
+ border-color:rgb(204,0,102);
+text-shadow: 0 0 5px rgb(204,0,102),0 0 5px rgb(204,0,102);
+transform:scale(1.09);
+
+}
+.box2:hover{
+box-shadow:0 -10px 20px 0  rgb(204,0,102) inset,0 1px 20px 0  rgb(204,0,102),
+            0 10px 20px 0  rgb(204,0,102) inset,0 1px 20px 0  rgb(204,0,102);
+ border-color:rgb(204,0,102);
+text-shadow: 0 0 5px rgb(204,0,102),0 0 5px rgb(204,0,102);
+transform:scale(1.09);
+
+}
+
+
+
+
+.neobleu{
+border: 2px double;
+border-color:rgb(0,204,204);
+border-radius: 10px 10px;
+background-color:black;
+color:rgb(0,204,204);
+height:50px;
+width:150px;
+font-size:20px;
+
+}
+.neobleu:hover{
+
+
+border-color:rgb(51,255,255);
+font-size: 22px;
+border-width:2px;
+color:rgb(51,255,255);
+box-shadow:0 1px 5px 0  rgb(51,255,255) inset,0 1px 5px 0 rgb(51,255,255),
+            0 1px 5px 0  rgb(51,255,255) inset,0 1px 5px 0  rgb(51,255,255);
+text-shadow: 0 0 5px rgb(51,255,255),0 0 5px rgb(51,255,255);
+}
+/*
+animation-name: bbl;
+animation-duration: 1.5s;
+animation-iteration-count:infinite;
+}
+@keyframes bbl {
+
+    0%   {box-shadow:0 -10px 50px 0  rgb(51,255,255) inset,0 1px 50px 0 rgb(51,255,255),
+            0 10px 50px 0  rgb(51,255,255) inset,0 1px 50px 0  rgb(51,255,255);
+            color:black;
+
+
+    }
+    50%   {
+        color:rgb(51,255,255);
+        }
+
+}*/
+.neoyellow{
+border: 2px double;
+border-color:rgb(224,231,34);
+border-radius: 10px 10px;
+background-color:black;
+color:rgb(224,231,34);
+height:50px;
+width:150px;
+font-size:20px;
+}
+.neoyellow:hover{
+transform:scale(1.09);
+
+color:rgb(224,231,34);
+box-shadow:0 1px 5px 0  rgb(224,231,34) inset,0 1px 5px 0 rgb(224,231,34),
+            0 1px 5px 0  rgb(224,231,34) inset,0 1px 5px 0  rgb(224,231,34);
+text-shadow: 0 0 5px rgb(224,231,34),0 0 5px rgb(224,231,34);}
+.neopink{
+border: 2px double;
+border-color:#FF3333;
+
+
+color:#FF3333;
+height:50px;
+width:150px;
+}
+.neopink:hover{
+
+border-color:#FF3333;
+background-color:#FF3333;
+border-radius: 10px 10px;
+color:white;
+box-shadow:0 1px 5px 0  #ff1493 inset,0 1px 5px 0 #ff1493,
+            0 1px 5px 0  #ff1493 inset,0 1px 5px 0  #ff1493;
+text-shadow: 0 0 5px #ff1493,0 0 5px #ff1493;}
+
+
+
+.neogold{
+border: 2px double;
+border-color:rgb(218,145,0);
+border-radius: 10px 10px;
+background-color:black;
+color:rgb(218,145,0);
+height:50px;
+width:150px;
+}
+.neogold:hover{
+
+border-color:rgb(218,145,0);
+
+color:rgb(218,145,0);
+box-shadow:0 1px 5px 0  rgb(218,145,0) inset,0 1px 5px 0 rgb(218,145,0),
+            0 1px 5px 0  rgb(218,145,0) inset,0 1px 5px 0  rgb(218,145,0);
+text-shadow: 0 0 5px rgb(218,145,0),0 0 5px rgb(218,145,0);}
+.butmenu{
+    margin-left:2px;
+    color:white;
+    margin-top:5px;
+    border-style:solid;
+    border-color:#212529;
+    background-color:#212529;
+    font-size: 15px;
+}
+
+.butmenu:hover{
+
+
+    color:black;
+    border-color:white;
+    background-color:white;
+     border-radius: 15px 15px;
+    transform: scale(1.3);
+     margin-top:5px;
+
+
+
+
+}
+.fixe{
+    position: fixed;
+    transform:scale(1);
+    z-index: 3;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dyb{
+height:40px;
+width:200px;
+color:rgb(0,204,0);
+border-color:rgb(0,204,0);
+border-radius: 10px 10px;
+background-color:black;
+font-size:15px;
+}
+.med{
+height:40px;
+width:200px;
+border-radius: 10px 10px;
+background-color:black;
+color:rgb(255,128,0);
+border-color:rgb(255,128,0);
+
+
+}
+.hrd{
+height:40px;
+width:200px;
+border-radius: 10px 10px;
+background-color:black;
+color:rgb(255,0,0);
+border-color:rgb(255,0,0);
+}
+
+
+
+
+
+
+
+
+
+.dyb:hover{
+transform:scale(1.2);
+border-width:2px;
+background-color:black;
+border-color: rgb(0,204,0);
+color:rgb(0,204,0);
+animation-name: greenx;
+animation-duration: 1s;
+animation-iteration-count:infinite;
+
+}
+.med:hover{
+transform:scale(1.2);
+border-width:2px;
+background-color:black;
+border-color: rgb(255,128,0);
+color:rgb(255,128,0);
+animation-name: redd;
+animation-name: yelx;
+animation-duration: 1s;
+animation-iteration-count:infinite;
+
+}
+.hrd:hover{
+transform:scale(1.2);
+font-size:17px;
+border-width:2px;
+background-color:black;
+border-color: red;
+color:red;
+animation-name: redd;
+animation-duration: 1s;
+animation-iteration-count:infinite;
+
+}
+@keyframes redd {
+
+    0%   {box-shadow:0 -10px 50px 0  rgb(255,0,0) inset,0 1px 50px 0 rgb(255,0,0),
+            0 10px 50px 0  rgb(255,0,0) inset,0 1px 50px 0  rgb(255,0,0);
+            color:black;
+        background-color: red;
+    }
+    50%   {background-color: black;
+    color:red}
+
+}
+@keyframes greenx {
+
+    0%   {box-shadow:0 -10px 50px 0  rgb(0,204,0) inset,0 1px 50px 0 rgb(0,204,0),
+                     0 10px 50px 0  rgb(0,204,0) inset,0 1px 50px 0  rgb(0,204,0);
+            color:black;
+        background-color: rgb(0,204,0);}
+    50%   {background-color: green;
+    color:rgb(0,204,0)}
+
+}
+@keyframes yelx {
+
+    0%   {box-shadow:0 -10px 50px 0  rgb(255,128,0) inset,0 1px 50px 0 rgb(255,128,0),
+                     0 10px 50px 0  rgb(255,128,0) inset,0 1px 50px 0  rgb(255,128,0);
+            color:black;
+        background-color: rgb(255,128,0);}
+    50%   {background-color: black;
+    color:rgb(255,128,0)}
+    }
