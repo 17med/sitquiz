@@ -1,0 +1,118 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="../../logo/ll.ico">
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../../postprocessing.css">
+    <script src="../../scripts.js"></script>
+    <title>Quiz --</title>
+
+</head>
+
+
+<!-- NAV !-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixe">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <a class="navbar-brand" href="#">QUIZ</a>
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+                <a  href="../../index.html"><button class="butmenu" onmouseover="audiox('dot.mp3')" onmousedown="audiox('click.mp3')">accueil</button> </a>
+            </li>
+            <li class="nav-item active">
+                <a  href="../../quiz/quizpr.html"><button class="butmenu" onmouseover="audiox('dot.mp3')" onmousedown="audiox('click.mp3')">Quiz</button></a>
+            </li>
+            <li class="nav-item">
+                <a  href="../../livre/livres.html"><button class="butmenu" onmouseover="audiox('dot.mp3')" onmousedown="audiox('click.mp3')">Livres</button></a>
+            </li>
+            <li class="nav-item">
+                <a  href="../../liens utiles/liens utiles.html"><button class="butmenu" onmouseover="audiox('dot.mp3')" onmousedown="audiox('click.mp3')">Liens utiles</button></a>
+            </li>
+            <li class="nav-item">
+                <a  href="../../contact/contact.html"><button class="butmenu" onmouseover="audiox('dot.mp3')" onmousedown="audiox('click.mp3')">Contact</button></a>
+            </li>
+
+        </ul>
+
+    </div>
+</nav>
+<header>
+    </br></br></br></br></br></br></br></br></br></br>
+    <b>Testez</b></br>
+    <b>vos connaissances</b> <br />
+    <b>Développement Web</b>
+</header>
+<div class="back">
+    <div class="cent">
+        <h1 class="tit">Quiz </h1>
+        <form name="quiz">
+            <h3 class="tit2">1.Python est un langage ?</h3>
+            <div class="mmp" id="mm1"><p><input type="radio" name="q" id="1" value="false" onselect="" />a)	binaire</p></div>
+            <div class="mmp" id="mm2"><p><input type="radio" name="q" id="2" value="false" onselect="" />b)	compilé</p></div>
+            <div class="mmp" id="mm3"><p><input type="radio" name="q" id="3" value="true" onselect="" />c)	interprété</p></div>
+            <br />
+            <h3 class="tit2">
+                2.Laquelle des fonctions suivantes convertit in « string » En « float » en python ?
+            </h3>
+            <div class="mmp" id="mm4"><p><input type="radio" name="q1" id="4" value="false" onselect="" />a)	 str(x)</p></div>
+            <div class="mmp" id="mm5"><p><input type="radio" name="q1" id="5" value="true" onselect="" />b)	float(x) </p></div>
+            <div class="mmp" id="mm6"><p><input type="radio" name="q1" id="6" value="false" onselect="" />c)	int(x[,base])</p></div>
+            <br />
+            <h3 class="tit2">   3.En python 3,que fait l’opérateur // ?</h3>
+            <div class="mmp" id="mm7"><p><input type="radio" name="q2" id="7" value="true" onselect="" />a)	Division entière </p></div>
+            <div class="mmp" id="mm8"><p><input type="radio" name="q2" id="8" value="false" onselect="" />b)	Retourne le reste</p></div>
+            <div class="mmp" id="mm9"><p><input type="radio" name="q2" id="9" value="false" onselect="" />c)	Division du float par zéro</p></div>
+            <br />
+            <h3 class="tit2">4.En python, laquelle des fonctions suivantes vérifie dans une Chaine de caractères que tous les caractères sont des chiffres ?</h3>
+            <div class="mmp" id="mm10"><p><input type="radio" name="q3" id="10" value="true" onselect="" />a)	Isdigit() </p></div>
+            <div class="mmp" id="mm11"><p><input type="radio" name="q3" id="11" value="false" onselect="" />b)	Isalnum()</p></div>
+            <div class="mmp" id="mm12"><p><input type="radio" name="q3" id="12" value="false" onselect="" />c)	Shuffle(ist)</p></div>
+            <br />
+            <h3 class="tit2">5.Quel est le type de données pour un caractère en python ?</h3>
+            <div class="mmp" id="mm13"><p><input type="radio" name="q4" id="13" value="false" onselect="" />a)	chr</p></div>
+            <div class="mmp" id="mm14"><p><input type="radio" name="q4" id="14" value="false" onselect="" />b)	char</p></div>
+            <div class="mmp" id="mm15"><p><input type="radio" name="q4" id="15" value="true" onselect="" />c)	python ne possède aucun type de données pour les caractères ,ils sont traits comme des chaines de caractères (string) </p></div>
+            <br />
+            <h3 class="tit2"> 6. Quelle est la fonction qui compare les éléments des deux listes ? </h3>
+            <div class="mmp" id="mm16"><p><input type="radio" name="q5" id="16" value="false" onselect="" />a)	max(list1,list2)</p></div>
+            <div class="mmp" id="mm17"><p><input type="radio" name="q5" id="17" value="true" onselect="" />b)	cmp(list1,list2) </p></div>
+            <div class="mmp" id="mm18"><p><input type="radio" name="q5" id="18" value="false" onselect="" />c)	len(list1,list2)</p></div>
+            <h3 class="tit2">7.Laquelle des fonctions suivantes renvoie le plus petit caractère de la chaine str ?</h3>
+            <div class="mmp" id="mm19"><p><input type="radio" name="q6" id="19" value="true" onselect="" />a)	min(str)</p></div>
+            <div class="mmp" id="mm20"><p><input type="radio" name="q6" id="20" value="false" onselect="" />b)	lower()</p></div>
+            <div class="mmp" id="mm21"><p><input type="radio" name="q6" id="21" value="false" onselect="" />c)	upper(str)</p></div><br />
+            <h3 class="tit2">8.Quelle fonction utilisée pour ouvrir le fichier en lecture en python ?</h3>
+            <div class="mmp" id="mm22"><p><input type="radio" name="q7" id="22" value="false" onselect="" />a)	open_file(file_name,mode)</p></div>
+            <div class="mmp" id="mm23"><p><input type="radio" name="q7" id="23" value="true" onselect="" />b)	open(file_name,mode)</p></div>
+            <div class="mmp" id="mm24"><p><input type="radio" name="q7" id="24" value="false" onselect="" />c)	fopen(file_name,mode)</p></div>
+            <br />
+            <h3 class="tit2">9.En python , quel mot clé est utilisé pour commencer une fonction ?</h3>
+            <div class="mmp" id="mm25"><p><input type="radio" name="q8" id="25" value="false" onselect="" />a)	function</p></div>
+            <div class="mmp" id="mm26"><p><input type="radio" name="q8" id="26" value="false" onselect="" />b)	fun</p></div>
+            <div class="mmp" id="mm27"><p><input type="radio" name="q8" id="27" value="true" onselect="" />c)	def</p></div>
+            <br />
+            <h3 class="tit2">10.Lequel des opérateurs suivants en python est évalué a « True » s’il ne trouve Pas de variable dans la séquence spécifiée sinon « False » ?</h3>
+            <div class="mmp" id="mm28"><p><input type="radio" name="q9" id="28" value="true" onselect="" />a)	not in </p></div>
+            <div class="mmp" id="mm29"><p><input type="radio" name="q9" id="29" value="false" onselect="" />b)	is </p></div>
+            <div class="mmp" id="mm30"><p><input type="radio" name="q9" id="30" value="false" onselect="" />c)	**</p></div>
+            <p><input class="neopink zzx" type="button" onmouseover="audiox('dot2.mp3')" onmousedown="audiox('click.mp3')" onclick="verif(30)" value="Valider"><button type="reserve" class="neopink zzx" onmouseover="audiox('dot2.mp3')" onmousedown="audiox('click.mp3')">Annuler</button></p>
+
+
+        </form>
+    </div>
+</div>
+<hr>
+<footer>
+    <p>Trouvez le code source sur GitHub <img src="../../logo/logogithub.png" class="img"></p>
+    <p>Visitez notre page facebook <img src="../../logo/logofb.png" class="img"></p>
+</footer>
+
+
+
+
+
+</html>

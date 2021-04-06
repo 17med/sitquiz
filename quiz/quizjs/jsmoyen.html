@@ -1,0 +1,119 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="../../logo/ll.ico">
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../../postprocessing.css">
+    <script src="../../scripts.js"></script>
+    <title>Quiz --</title>
+
+</head>
+
+
+<!-- NAV !-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixe">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <a class="navbar-brand" href="#">QUIZ</a>
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+                <a  href="../../index.html"><button class="butmenu" onmouseover="audiox('dot.mp3')" onmousedown="audiox('click.mp3')">accueil</button> </a>
+            </li>
+            <li class="nav-item active">
+                <a  href="../../quiz/quizpr.html"><button class="butmenu" onmouseover="audiox('dot.mp3')" onmousedown="audiox('click.mp3')">Quiz</button></a>
+            </li>
+            <li class="nav-item">
+                <a  href="../../livre/livres.html"><button class="butmenu" onmouseover="audiox('dot.mp3')" onmousedown="audiox('click.mp3')">Livres</button></a>
+            </li>
+            <li class="nav-item">
+                <a  href="../../liens utiles/liens utiles.html"><button class="butmenu" onmouseover="audiox('dot.mp3')" onmousedown="audiox('click.mp3')">Liens utiles</button></a>
+            </li>
+            <li class="nav-item">
+                <a  href="../../contact/contact.html"><button class="butmenu" onmouseover="audiox('dot.mp3')" onmousedown="audiox('click.mp3')">Contact</button></a>
+            </li>
+
+        </ul>
+
+    </div>
+</nav>
+<header>
+    </br></br></br></br></br></br></br></br></br></br>
+    <b>Testez</b></br>
+    <b>vos connaissances</b> <br />
+    <b>Développement Web</b>
+</header>
+<div class="back">
+    <div class="cent">
+        <h1 class="tit">Quiz </h1>
+        <form name="quiz">
+            <h3 class="tit2">Q1. La quelle de ces syntaxes est correcte</h3>
+            <div class="mmp" id="mm1"><p><input type="radio" name="q" id="1" value="" onselect="" />a)	if (a != 2) {} </p></div>
+            <div class="mmp" id="mm2"><p><input type="radio" name="q" id="2" value="" onselect="" />b)	if a != 2 {} </p></div>
+            <div class="mmp" id="mm3"><p><input type="radio" name="q" id="3" value="" onselect="" />c)	if (a <> 2){}</p></div>
+            <br />
+            <h3 class="tit2">Q2. Quel code n'affichera pas 3</h3>
+            <div class="mmp" id="mm4"><p><input type="radio" name="q1" id="4" value="" onselect="" />a)	alert(Math.max(-4, 3));</p></div>
+            <div class="mmp" id="mm5"><p><input type="radio" name="q1" id="5" value="" onselect="" />b)	var i=3; alert(i++);</p></div>
+            <div class="mmp" id="mm6"><p><input type="radio" name="q1" id="6" value="" onselect="" />c)	alert(Math.floor(2.9));</p></div>
+            <br />
+            <h3 class="tit2">Q3. Console.log sert à</h3>
+            <div class="mmp" id="mm7"><p><input type="radio" name="q2" id="7" value="" onselect="" />a)	Ecrire sur le document</p></div>
+            <div class="mmp" id="mm8"><p><input type="radio" name="q2" id="8" value="" onselect="" />b)	Ecrire dans une boite de dialogue</p></div>
+            <div class="mmp" id="mm9"><p><input type="radio" name="q2" id="9" value="" onselect="" />c)	Débugger</p></div>
+            <br />
+            <h3 class="tit2">Q4.  Var mot="Web" comment afficher W dans une boite de dialogue</h3>
+            <div class="mmp" id="mm10"><p><input type="radio" name="q3" id="10" value="" onselect="" />a)	alert(mot.charAt(0));</p></div>
+            <div class="mmp" id="mm11"><p><input type="radio" name="q3" id="11" value="" onselect="" />b)	alert(mot.indexOf(0));</p></div>
+            <div class="mmp" id="mm12"><p><input type="radio" name="q3" id="12" value="" onselect="" />c)	alert(mot.charAt(1));</p></div>
+            <br />
+            <h3 class="tit2">Q5. str="HelloWorld"; console.log(str.substr(2,5));</h3>
+            <div class="mmp" id="mm13"><p><input type="radio" name="q4" id="13" value="true" onselect="" />b)	lloWo</p></div>
+            <div class="mmp" id="mm14"><p><input type="radio" name="q4" id="14" value="false" onselect="" />b)	lloWo</p></div>
+            <div class="mmp" id="mm15"><p><input type="radio" name="q4" id="15" value="false" onselect="" />c)	lloWorld</p></div>
+            <br />
+            
+            <h3 class="tit2">Q6.console.log(2*2**3);</h3>
+            <div class="mmp" id="mm16"><p><input type="radio" name="q5" id="16" value="false" onselect="" />a)	12</p></div>
+            <div class="mmp" id="mm17"><p><input type="radio" name="q5" id="17" value="false" onselect="" />b)	36</p></div>
+            <div class="mmp" id="mm18"><p><input type="radio" name="q5" id="18" value="true" onselect="" />c)	16</p></div>
+            <br />
+            <h3 class="tit2">Q7. S="loosers"; for(i in s){ res=i;} console.log(res.length);</h3>
+            <div class="mmp" id="mm19"><p><input type="radio" name="q6" id="19" value="false" onselect="" />a)	7</p></div>
+            <div class="mmp" id="mm20"><p><input type="radio" name="q6" id="20" value="true" onselect="" />b)	1</p></div>
+            <div class="mmp" id="mm21"><p><input type="radio" name="q6" id="21" value="false" onselect="" />c)	0</p></div>
+            <br />
+            <h3 class="tit2">Q8. Function test() return 5.toString(2); alert(test());</h3>
+            <div class="mmp" id="mm22"><p><input type="radio" name="q7" id="22" value="true" onselect="" />a)	101</p></div>
+            <div class="mmp" id="mm23"><p><input type="radio" name="q7" id="23" value="true" onselect="" />b)	10</p></div>
+            <div class="mmp" id="mm24"><p><input type="radio" name="q7" id="24" value="false" onselect="" />c)	Undefined</p></div>
+            <br />
+            <h3 class="tit2">Q9. <p id="test"> Test </p> comment changer contenu du <p></h3>
+            <div class="mmp" id="mm25"><p><input type="radio" name="q8" id="25" value="true" onselect="" />a)	document.getElemntById("test").innerHTML="Hello";</p></div>
+            <div class="mmp" id="mm26"><p><input type="radio" name="q8" id="26" value="false" onselect="" />b)	document.getElemnt("p").innerHTML="Hello";</p></div>
+            <div class="mmp" id="mm27"><p><input type="radio" name="q8" id="27" value="false" onselect="" />c)	test.innerHTML="Hello";</p></div>
+            <br />
+            <h3 class="tit2">Q10. Le code JS dans un fichier externe contient  un élément < script></h3>
+            <div class="mmp" id="mm28"><p><input type="radio" name="q9" id="28" value="true" onselect="" />a)	Oui</p></div>
+            <div class="mmp" id="mm29"><p><input type="radio" name="q9" id="29" value="false" onselect="" />oui </p></div>
+            <div class="mmp" id="mm30"><p><input type="radio" name="q9" id="30" value="false" onselect="" />c)	Au choix</p></div>
+            <p><input class="neopink zzx" type="button" onmouseover="audiox('dot2.mp3')" onmousedown="audiox('click.mp3')" onclick="verif(30)" value="Valider"><button type="reserve" class="neopink zzx" onmouseover="audiox('dot2.mp3')" onmousedown="audiox('click.mp3')">Annuler</button></p>
+
+
+        </form>
+    </div>
+</div>
+<hr>
+<footer>
+    <p>Trouvez le code source sur GitHub <img src="../../logo/logogithub.png" class="img"></p>
+    <p>Visitez notre page facebook <img src="../../logo/logofb.png" class="img"></p>
+</footer>
+
+
+
+
+
+</html>

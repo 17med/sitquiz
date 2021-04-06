@@ -1,0 +1,117 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="../../logo/ll.ico">
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../../postprocessing.css">
+    <script src="../../scripts.js"></script>
+    <title>Quiz --</title>
+
+</head>
+
+
+<!-- NAV !-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixe">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <a class="navbar-brand" href="#">QUIZ</a>
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+                <a  href="../../index.html"><button class="butmenu" onmouseover="audiox('dot.mp3')" onmousedown="audiox('click.mp3')">accueil</button> </a>
+            </li>
+            <li class="nav-item active">
+                <a  href="../../quiz/quizpr.html"><button class="butmenu" onmouseover="audiox('dot.mp3')" onmousedown="audiox('click.mp3')">Quiz</button></a>
+            </li>
+            <li class="nav-item">
+                <a  href="../../livre/livres.html"><button class="butmenu" onmouseover="audiox('dot.mp3')" onmousedown="audiox('click.mp3')">Livres</button></a>
+            </li>
+            <li class="nav-item">
+                <a  href="../../liens utiles/liens utiles.html"><button class="butmenu" onmouseover="audiox('dot.mp3')" onmousedown="audiox('click.mp3')">Liens utiles</button></a>
+            </li>
+            <li class="nav-item">
+                <a  href="../../contact/contact.html"><button class="butmenu" onmouseover="audiox('dot.mp3')" onmousedown="audiox('click.mp3')">Contact</button></a>
+            </li>
+
+        </ul>
+
+    </div>
+</nav>
+<header>
+    </br></br></br></br></br></br></br></br></br></br>
+    <b>Testez</b></br>
+    <b>vos connaissances</b> <br />
+    <b>Développement Web</b>
+</header>
+<div class="back">
+    <div class="cent">
+        <h1 class="tit">Quiz </h1>
+        <form name="quiz">
+            <h3 class="tit2">1.Que signifie CSS ?</h3>
+            <div class="mmp" id="mm1"><p><input type="radio" name="q" id="1" value="true" onselect="" />a)	Cascading Style Sheets </p></div>
+            <div class="mmp" id="mm2"><p><input type="radio" name="q" id="2" value="false" onselect="" />b)	Create Simple Samples</p></div>
+            <div class="mmp" id="mm3"><p><input type="radio" name="q" id="3" value="false" onselect="" />c)	Choucroute et Saucisses d'Alsace</p></div>
+            <br />
+            <h3 class="tit2">2. A quoi sert le langage CSS ?</h3>
+            <div class="mmp" id="mm4"><p><input type="radio" name="q1" id="4" value="false" onselect="" />a)	A réaliser des pages dynamiques</p></div>
+            <div class="mmp" id="mm5"><p><input type="radio" name="q1" id="5" value="true" onselect="" />b)	A ajouter du style aux documents web </p></div>
+            <div class="mmp" id="mm6"><p><input type="radio" name="q1" id="6" value="false" onselect="" />c)	A insérer du contenu dans une page internet</p></div>
+            <br />
+            <h3 class="tit2">3. Pourquoi utilise-t-on généralement du CSS ?</h3>
+            <div class="mmp" id="mm7"><p><input type="radio" name="q2" id="7" value="false" onselect="" />a)	Pour se compliquer la vie bien sûr</p></div>
+            <div class="mmp" id="mm8"><p><input type="radio" name="q2" id="8" value="true" onselect="" />b)	Pour séparer le contenu et la présentation des documents web </p></div>
+            <div class="mmp" id="mm9"><p><input type="radio" name="q2" id="9" value="false" onselect="" />c)	Cela permet de faire de plus jolis dégradés de couleurs</p></div>
+            <br />
+            <h3 class="tit2">4. Où est-il conseillé de placer le code CSS?</h3>
+            <div class="mmp" id="mm10"><p><input type="radio" name="q3" id="10" value="false" onselect="" />a)	Dans le body, c'te question</p></div>
+            <div class="mmp" id="mm11"><p><input type="radio" name="q3" id="11" value="false" onselect="" />b)	Entre les balises  head, c'est bien plus propre</p></div>
+            <div class="mmp" id="mm12"><p><input type="radio" name="q3" id="12" value="true" onselect="" />c)	Dans un fichier externe utilisable pour plusieurs pages </p></div>
+            <br />
+            <h3 class="tit2">5. Dans quoi définit-on les déclarations CSS ?</h3>
+            <div class="mmp" id="mm13"><p><input type="radio" name="q4" id="13" value="false" onselect="" />a)	Entre deux crochets séparées par des tirets [ ... - ... ]</p></div>
+            <div class="mmp" id="mm14"><p><input type="radio" name="q4" id="14" value="false" onselect="" />b)	Entre deux guillemets séparées par des slashs " ... / ... "</p></div>
+            <div class="mmp" id="mm15"><p><input type="radio" name="q4" id="15" value="true" onselect="" />c)	Entre deux accolades séparés par des points-virgules {... ; ...} </p></div>
+            <br />
+            <h3 class="tit2">6. Dans la règle suivante, quel élément deviendra rouge ? strong#intro {background-color: red;}</h3>
+            <div class="mmp" id="mm16"><p><input type="radio" name="q5" id="16" value="false" onselect="" />a)	L'élément dont l'id est "intro" et qui est contenu dans un élément strong</p></div>
+            <div class="mmp" id="mm17"><p><input type="radio" name="q5" id="17" value="true" onselect="" />b)	L'élément "strong"" dont l'id est "intro" </p></div>
+            <div class="mmp" id="mm18"><p><input type="radio" name="q5" id="18" value="false" onselect="" />c)	Tous les éléments  ""strong" contenus dans un élément dont l'id est "intro"</p></div>
+            <br />
+            <h3 class="tit2">7. Quel élément sépare la propriété de sa valeur ?</h3>
+            <div class="mmp" id="mm19"><p><input type="radio" name="q6" id="19" value="false" onselect="" />a)	Le signe espace ( )</p></div>
+            <div class="mmp" id="mm20"><p><input type="radio" name="q6" id="20" value="false" onselect="" />b)	Le signe égal (=)</p></div>
+            <div class="mmp" id="mm21"><p><input type="radio" name="q6" id="21" value="true" onselect="" />c)	Le signe deux points (:) </p></div>
+            <br />
+            <h3 class="tit2">8. Pourquoi est-il d'usage de sauter une ligne entre chaque déclaration ?</h3>
+            <div class="mmp" id="mm22"><p><input type="radio" name="q7" id="22" value="false" onselect="" />a)	Pour rien du tout</p></div>
+            <div class="mmp" id="mm23"><p><input type="radio" name="q7" id="23" value="false" onselect="" />b)	Pour que le code soit bien interprété par les navigateurs</p></div>
+            <div class="mmp" id="mm24"><p><input type="radio" name="q7" id="24" value="true" onselect="" />c)	Pour rendre le code plus lisible et la maintenance plus facile </p></div>
+            <br />
+            <h3 class="tit2">9.A quoi sert le sélecteur de classe : h2.nomDeClasse ?</h3>
+            <div class="mmp" id="mm25"><p><input type="radio" name="q8" id="25" value="false" onselect="" />a)	Ah bon ... C'est censé servir à quelque chose ?</p></div>
+            <div class="mmp" id="mm26"><p><input type="radio" name="q8" id="26" value="false" onselect="" />b)	A créer une ancre sur la balise  h2 </p></div>
+            <div class="mmp" id="mm27"><p><input type="radio" name="q8" id="27" value="true" onselect="" />c)	A définir différentes propriétés pour l'élément h2 dont la classe est "nomDeClasse". </p></div>
+            <br />
+            <h3 class="tit2">10. Combien de règles peut contenir un fichier CSS ?</h3>
+            <div class="mmp" id="mm28"><p><input type="radio" name="q9" id="28" value="true" onselect="" />a)	Il n'y a pas de limite, on peut en créer autant que l'on veut </p></div>
+            <div class="mmp" id="mm29"><p><input type="radio" name="q9" id="29" value="false" onselect="" />b)	Si le poids du fichier n'excède pas 20Ko, c'est tout bon</p></div>
+            <div class="mmp" id="mm30"><p><input type="radio" name="q9" id="30" value="false" onselect="" />c)	150</p></div>
+            <p><input class="neopink zzx" type="button" onmouseover="audiox('dot2.mp3')" onmousedown="audiox('click.mp3')" onclick="verif(30)" value="Valider"><button type="reserve" class="neopink zzx" onmouseover="audiox('dot2.mp3')" onmousedown="audiox('click.mp3')">Annuler</button></p>
+
+
+        </form>
+    </div>
+</div>
+<hr>
+<footer>
+    <p>Trouvez le code source sur GitHub <img src="../../logo/logogithub.png" class="img"></p>
+    <p>Visitez notre page facebook <img src="../../logo/logofb.png" class="img"></p>
+</footer>
+
+
+
+
+
+</html>
